@@ -1,4 +1,3 @@
-# Video Quickstart for PHP
 
 This application should give you a ready-made starting point for writing your
 own video apps with Twilio Video. Before we begin, we need to collect
@@ -11,11 +10,6 @@ Account SID | Your primary Twilio account identifier - find this [in the console
 API Key | Used to authenticate - [generate one here](https://www.twilio.com/console/video/dev-tools/api-keys).
 API Secret | Used to authenticate - [just like the above, you'll get one here](https://www.twilio.com/console/video/dev-tools/api-keys).
 
-## A Note on API Keys
-
-When you generate an API key pair at the URLs above, your API Secret will only
-be shown once - make sure to save this in a secure location, 
-or possibly your `~/.bash_profile`.
 
 ## Setting Up The PHP Application
 
