@@ -18,7 +18,7 @@ Create a configuration file for your application:
 cp config.example.php config.php
 ```
 
-Edit `config.php` with the four configuration parameters we gathered from above.
+Edit `config.php` with the 3 configuration parameters we gathered from above.
 
 Next, we'll need to install the Twilio Helper library via [Composer](https://getcomposer.org/).
 
