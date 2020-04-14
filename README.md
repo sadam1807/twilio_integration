@@ -45,8 +45,4 @@ webroot of your server and visit `index.html`.
 Your application should now be running at [http://localhost:8000](http://localhost:8000).
 Select any room name and join the room. Join the same room with another user in another browser tab or window to start video chatting!
 
-![screenshot of chat app](https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/video2.original.png)
-
-## License
-
 MIT
