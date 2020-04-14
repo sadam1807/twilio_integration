@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twilio Video - Video Quickstart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div id="remote-screen"></div>
+  <div id="remote-media"></div>
+  <div id="controls">
+    <div id="preview">
+      <p class="instructions">Welcome to EMR</p>
+      <div id="local-media"></div>
+      <button id="button-preview">Preview My Camera</button>
+    </div>
+    <div id="room-controls">
+      <p class="instructions">Room Name:</p>
+      <input id="room-name" type="text" placeholder="Enter a room name" />
+      <button id="button-join">Join Room</button>
+      <button id="button-leave">Leave Room</button>
+      <button id="button-share">Share Screen</button>
+      <button id="button-mute-audio">Mute Audio</button>
+      <button id="button-mute-video">Mute Video</button>
+    </div>
+    <div id="log"></div>
+  </div>
+
+  <!-- <script src="//media.twiliocdn.com/sdk/js/video/releases/1.0.0-beta5/twilio-video.js"></script> -->
+  <!-- <script src="//media.twiliocdn.com/sdk/js/video/v1/twilio-video.min.js"></script> -->
+  <script src="//media.twiliocdn.com/sdk/js/video/releases/2.0.0/twilio-video.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="quickstart.js"></script>
+</body>
+</html>
